@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
-    "prepare": "husky && husky install"
+    "prepare": "husky && husky install",
+    "format": "npx prettier --write ."
   },
   "dependencies": {
     "next": "14.2.7",
@@ -20,7 +21,8 @@
     "eslint-config-next": "14.2.7",
     "eslint-plugin-react": "^7.35.1",
     "globals": "^15.9.0",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "prettier": "^3.3.3"
   },
   "eslintConfig": {
     "extends": [
