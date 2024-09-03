@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
-    "prepare": "husky"
+    "prepare": "husky && husky install"
   },
   "dependencies": {
     "next": "14.2.7",
@@ -20,7 +20,7 @@
     "eslint-config-next": "14.2.7",
     "eslint-plugin-react": "^7.35.1",
     "globals": "^15.9.0",
-    "husky": "^9.1.5"
+    "husky": "^8.0.0"
   },
   "eslintConfig": {
     "extends": [

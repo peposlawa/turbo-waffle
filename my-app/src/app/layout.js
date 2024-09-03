@@ -9,7 +9,7 @@ export const metadata = {
 };
 
                   console.log("metadata");
-          const unusedVar = "This will trigger a warning or error";
+          const unusedVar = "This will trigger a warning or ERROR ERRROR error";
 
 export default function RootLayout({ children }) {
   return (
