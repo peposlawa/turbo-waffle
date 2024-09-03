@@ -1,8 +1,1 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-# Run ESLint on all staged JavaScript/TypeScript files
-npx eslint .
-
-# Run Prettier to format code
-npx prettier --write .
+npm run lint
