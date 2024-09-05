@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get bloooooody started by editing&nbsp;
+          Get bloody started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
         </p>
         <div>
