@@ -71,7 +71,7 @@ export default function Home() {
           <h2>
             Deploy <span>-&gt;</span>
           </h2>
-          <p>.js site to a shareable URL with Vercel.</p>
+          <p> to a shareable URL with Vercel.</p>
         </a>
       </div>
     </main>
