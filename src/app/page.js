@@ -3,6 +3,8 @@ import styles from './page.module.css';
 
 export default function Home() {
   
+  console.log(    'Hello, World!'    );
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -17,7 +19,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{' '}
-            <Image src="/vercel.svg" alt="Vercel Logo" className={styles.vercelLogo} width={100} height={24} priority />
+            <img src="/vercel.svg" alt="Vercel Logo" className={styles.vercelLogo} width={100} height={24} priority />
           </a>
         </div>
       </div>
