@@ -17,4 +17,7 @@ jobs:
         run: docker build -t first_image .
 
       - name: run the cointainer with lint
-        run: docker run first_image npm run lint
+        run: docker run first_image npm run lint 
+
+      - name: Run the container with npm format
+        run: docker run first_image npm run format -- --check
